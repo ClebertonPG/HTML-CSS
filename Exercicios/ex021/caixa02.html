@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            background-color: lightgray;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(158, 158, 158);
+            margin: auto;
+            width: 600px;
+            box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.37);
+        }
+        nav{
+            text-decoration: none;
+            padding: 10px;
+            box
+        }
+        nav >  ul{
+            display: none;
+        }
+        nav:hover > ul{
+            display: block;
+        }
+        ul > li:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 3px 4px 0px;
+        }
+        section{
+            padding: 15px;
+        }
+        article{
+            color: rgb(49, 48, 48);
+            padding: 5px;
+            background-color: rgb(122, 116, 116);
+        }
+        article > h2{
+            color: black;
+            background-color: blue;
+            margin: auto;
+            padding: 5px;
+
+        }
+        footer{
+            color: white;
+            background-color: black;
+            padding: 4px;
+            margin: auto;
+        }
+        footer > p {
+            margin: 0px;
+            text-align: center;
+        }
+        h1{
+            font-size: 2.3em;
+            font-style: normal;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        main > h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>meu site</h1>
+            <nav>
+                Menu
+                <ul>
+                    <li>1 Text</li>
+                    <li>2 Text</li>
+                    <li>3 Text</li>
+                    <li>4 Text</li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+            <h1>Noticias</h1>
+                <section>
+                    <article>
+                        <h2>Princiapis</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aut impedit non pariatur aliquid consequuntur. Itaque harum nihil voluptate sint rerum, consequuntur repudiandae suscipit doloribus reprehenderit fuga id iusto sed! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus ad officiis mollitia minima dolore, eos suscipit exercitationem velit deleniti porro tempore amet ab totam est magnam sapiente consequuntur vel tempora.</p>
+                    </article>
+                    <article>
+                        <h2>Esportes</h2>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos ullam, animi ut corporis sit fugit voluptates ipsa. Quam numquam dicta soluta cupiditate recusandae! Maiores rem dignissimos magni quam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nostrum tempora in modi minus quaerat architecto ratione harum, ex debitis possimus quibusdam sed quis, temporibus atque. Saepe quasi perferendis incidunt!</p>
+                    </article>
+                </section>
+    </main>
+
+    <footer><p>Desenvolvido por Cleberton</p>
+    </footer>
+</body>
+</html>
